@@ -105,9 +105,25 @@ namespace Objective_1._3
             #region 1-64 basic for loop
             int[] values = { 1, 2, 3, 4, 5, 6 };
 
-            for (int i = 0; i < values.Length; i++)
+            //for (int i = 0; i < values.Length; i++)
+            //{
+            //    if(values[i] == 4)
+            //    {
+            //        continue;
+            //    }
+            //    Console.WriteLine(values[i]);
+            //}
+
+            //int i = 0;
+            //while(i < values.Length)
+            //{
+            //    Console.WriteLine(values[i]);
+            //    i++;
+            //}
+
+            foreach(var i in values)
             {
-                Console.WriteLine(values[i]);
+                Console.WriteLine(i);
             }
             #endregion
         }
